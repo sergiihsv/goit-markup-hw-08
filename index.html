@@ -25,7 +25,7 @@
   </head>
   <body>
     <!--HEADER-->
-    <!--  <header class="header">
+    <header class="header">
       <div class="container header-container">
         <nav class="navigation">
           <a href="./" class="logo header__logo animate__pulse">
@@ -43,6 +43,11 @@
             </li>
           </ul>
         </nav>
+        <button class="burger-btn" data-menu-open>
+          <svg class="burger-btn__icon">
+            <use href="./images/icons.svg#burger-icon"></use>
+          </svg>
+        </button>
         <ul class="contact-list">
           <li class="contact__email">
             <a class="email" href="mailto:info@devstudio.com">
@@ -62,10 +67,19 @@
           </li>
         </ul>
       </div>
-    </header> -->
+      <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu__container">
+          <button class="close-btn mobile-menu__close-btn" data-menu-close>
+            <svg class="close-btn__icon">
+              <use href="./images/sprite.svg#icon-vector"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
     <!--MAIN-->
     <main>
-      <!-- <section class="hero">
+      <!--       <!-- <section class="hero">
         <div class="container">
           <h1 class="hero-title">
             Эффективные решения <br />
@@ -75,7 +89,7 @@
             Заказать услугу
           </button>
         </div>
-      </section>
+      </section> -->
 
       <section class="section__features">
         <div class="container">
@@ -131,9 +145,9 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!--OUR WORKS-->
-      <!--  <section class="section-works">
+      <!-- <section class="section-works">
         <div class="container">
           <h2 class="section__title">Чем мы занимаемся</h2>
           <ul class="our-works">
@@ -177,7 +191,7 @@
       </section> -->
 
       <!--OUR TEAM-->
-      <section class="section-team section">
+      <!-- <section class="section-team section">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
           <ul class="members">
@@ -351,7 +365,7 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!--CLIENTS-->
       <!--  <section class="section">
@@ -563,5 +577,6 @@
     </div>
 
     <script src="./js/modal.js"></script> -->
+    <script src="./js/menu.js"></script>
   </body>
 </html>
