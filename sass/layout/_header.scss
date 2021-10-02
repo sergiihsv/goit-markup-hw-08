@@ -6,29 +6,9 @@
   display: none;
 }
 
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--header-logo-color);
-  margin-right: 93px;
-  animation-duration: 500ms;
-  animation-iteration-count: 2;
-}
-
-.header__logo {
-  margin-right: 93px;
-}
-
-.header-web {
-  color: var(--accent-color);
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+.header {
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .burger-btn {
@@ -44,17 +24,13 @@
   }
 }
 
-.header {
-  padding-top: 16px;
-  padding-bottom: 16px;
-}
-
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+ 
 .mobile-menu {
   position: fixed;
   z-index: 100;
@@ -74,6 +50,10 @@
   visibility: visible;
   pointer-events: auto;
 }
+
+
+
+
 
 .close-btn {
   width: 40px;
@@ -95,12 +75,48 @@
   right: 15px;
 }
 
-.mobile-menu__container {
+
+.mobile-menu_container {
   position: relative;
-  min-height: 200px;
+  min-height: 500px;
   padding-top: 48px;
   padding-left: 40px;
+} 
+
+
+
+
+
+
+
+
+/* /* .logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--header-logo-color);
+  margin-right: 93px;
+  animation-duration: 500ms;
+  animation-iteration-count: 2;
+} */
+/* 
+.header__logo {
+  margin-right: 93px;
 }
+
+.header-web {
+  color: var(--accent-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+ */
+
+
 
 /* .header {
   padding-top: 24px;
@@ -133,9 +149,9 @@
 
 .header__logo {
   margin-right: 93px;
-}
+} */
 
-.menu {
+/* .menu {
   display: flex;
   align-items: center;
 
@@ -143,12 +159,12 @@
     margin-right: 50px;
   }
 }
-
-.contact-list {
+ */
+/* .contact-list {
   display: flex;
-}
+} */
 
-.contact__tel {
+/* .contact__tel {
   margin-left: 50px;
 }
 
@@ -169,13 +185,13 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-}
+} */
 
-.order {
+/* .order {
   background-color: var(--background-color);
-}
+} */
 
-.menu__link {
+/* .menu__link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -205,12 +221,12 @@
     color: var(--accent-color);
   }
 }
-
-.menu .menu__link.current {
+ */
+/* .menu .menu__link.current {
   color: var(--accent-color);
-}
+} */
 
-.email {
+/* .email {
   font-family: "Roboto", sans-serif;
   color: var(--title-text-color);
   font-weight: 500;
@@ -243,4 +259,3 @@
     color: var(--accent-color);
   }
 }
- */
